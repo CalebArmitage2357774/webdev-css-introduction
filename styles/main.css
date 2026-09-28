@@ -7,6 +7,28 @@ h1{
     font-weight:100;
     background-color:#cccccc;
     text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+nav.mainNav{
+    font-size: 1.2rem;
+    text-align: center;
+}
+nav.mainNav a{
+    text-decoration: none;
+    padding: 0 10px;
+}
+nav.mainNav a:link{
+    color:#000000;
+}
+nav.mainNav a:visited{
+    color:#000000;
+}
+nav.mainNav a:hover{
+    color:#0000FF;
+}
+nav.mainNav a:active{
+    color:#909090;
 }
 .maintext {
     font-size: 12px;
@@ -14,4 +36,20 @@ h1{
 }
 .highlight{
     color:#FF0000;
+}
+.sidebar{
+    font-size: 12px;
+    color: #000;
+    background-color:#FFFF99;
+    padding: 20px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+/* Fonts */
+.lato {
+    font-family: "Lato", sans-serif; 
+}
+.commissioner {
+    font-family: "Commissioner", sans-serif;
 }
